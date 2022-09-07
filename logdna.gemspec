@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = Gem::Requirement.new(">= 2.5.0")
   spec.add_runtime_dependency "concurrent-ruby", "~> 1.0"
   spec.add_runtime_dependency "json", "~> 2.0"
-  spec.add_runtime_dependency "require_all", "~> 1.4"
+  spec.add_runtime_dependency "require_all", "~> 3.0"
   spec.add_development_dependency "rubocop", "~> 0.78"
 end
